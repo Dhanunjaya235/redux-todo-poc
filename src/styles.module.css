@@ -1,0 +1,9 @@
+.wrapper{
+    margin-left: 35%;
+    margin-top: 15%;
+    width: 30%;
+    min-height: fit-content;
+    height: 200px;
+    background: #C5BACB;
+    border-radius: 30px;
+}
