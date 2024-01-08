@@ -12,7 +12,10 @@ import Tooltip from '@mui/material/Tooltip';
 import { setSelectedIds, setViewType } from "../slices/todosSlice";
 import TodoGrid from "./grid-todo";
 import { DataGridPro } from '@mui/x-data-grid-pro';
-
+import { LicenseInfo } from '@mui/x-license-pro';
+LicenseInfo.setLicenseKey(
+    '6394b27217a3deeca9f04d0e4bfa4158Tz02MzE1MCxFPTE3MTE4MTAyNDI5NTksUz1wcm8sTE09c3Vic2NyaXB0aW9uLEtWPTI='
+);
 const DataGridTodoList = () => {
     console.log("sdfsfsfdf");
     const { filteredtodos } = useSelector((state: any) => state.todos);

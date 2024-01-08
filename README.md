@@ -4,8 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
-
+In the project directory, run below commands to run application:
+### `npm install`
+### `npx json-server --watch database.json`
 ### `npm start`
 
 Runs the app in the development mode.\
